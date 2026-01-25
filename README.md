@@ -1,0 +1,1 @@
+# sc-calc-maven-jenkins
