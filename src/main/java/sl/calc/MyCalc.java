@@ -29,6 +29,10 @@ public class MyCalc {
 	{
 		System.out.println("Hello Jenkins from Main Branch");
 	}
+	public void pollscm()
+	{
+		System.out.println("Hello Jenkins to test poll scm");
+	}
 
 	public static void main(String[] args) {
 		MyCalc calc = new MyCalc();
@@ -39,6 +43,7 @@ public class MyCalc {
 		System.out.println("Mod is "+ calc.mod(20, 10));
 		calc.show();
 		calc.greeting();
+		calc.pollscm();
 
 	}
 
